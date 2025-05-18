@@ -6,18 +6,6 @@
 
 A machine learning model that predicts Formula 1 race winners based on historical data (1950-2020).
 
-## Features
-- Predicts race winners with ~85% accuracy
-- Considers 7 key factors: Driver, Team, Grid Position, Year, Round, Circuit, Weather
-- Interactive CLI for predictions
-- Uses Random Forest Classifier
-
-## Installation
-```bash
-git clone https://github.com/yourusername/formula1-prediction.git
-cd formula1-prediction
-pip install -r requirements.txt
-
 Usage
 Run the Jupyter notebook:
 
@@ -53,3 +41,16 @@ pandas
 scikit-learn
 numpy
 kagglehub
+
+
+## Features
+- Predicts race winners with ~85% accuracy
+- Considers 7 key factors: Driver, Team, Grid Position, Year, Round, Circuit, Weather
+- Interactive CLI for predictions
+- Uses Random Forest Classifier
+
+## Installation
+```bash
+git clone https://github.com/yourusername/formula1-prediction.git
+cd formula1-prediction
+pip install -r requirements.txt
